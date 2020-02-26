@@ -3,6 +3,6 @@ cin>>node>>edge;
   int u, v;
   for(int i=1; i<=edge; i++){
     cin>>u>>v;
-    int lb = upper_bound(G[u].begin(), G[u].end(), v) - G[u].begin();
+    int lb = lower_bound(G[u].begin(), G[u].end(), v) - G[u].begin();
     G[u].insert(G[u].begin()+lb, v);
    }
