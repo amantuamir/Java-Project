@@ -41,4 +41,7 @@
 			"cmd": ["x-terminal-emulator", "-e", "bash", "-c", "g++ -Wall -std=c++11 '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'; read -p 'Press any key to continue...'"]
 		}
 	]
-}	
+}
+
+
+My PC S/N# 5CD721BZXC
