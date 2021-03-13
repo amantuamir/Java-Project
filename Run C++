@@ -68,3 +68,10 @@ explorer "http://MSGuides.com"&goto halt
 echo ============================================================================&echo.&echo Sorry! Your version is not supported.&echo.
 :halt
 pause >nul
+
+
+
+
+
+
+
