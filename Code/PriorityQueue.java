@@ -10,10 +10,6 @@ public class Main {
       int a = input.nextInt();
       pq.add(a);
     }
-    Iterator iterator = pq.iterator();
-    while (iterator.hasNext()) {
-        System.out.print(iterator.next() + " ");
-    }
     while (!pq.isEmpty()) {
       int top = pq.peek();
       System.out.println(top);
