@@ -5,6 +5,7 @@ public class Main {
   public static void main(String arg[]) {
     Scanner input = new Scanner(System.in);
     int n = input.nextInt();
+    //ascending by default
     PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
     for (int i = 1; i <= n; i++) {
       int a = input.nextInt();
