@@ -7,6 +7,8 @@ public class Main {
     Scanner input = new Scanner(System.in);
     int n = input.nextInt();
     PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
+    //PriorityQueue<Integer> maxPQ = new PriorityQueue<>((a,b) -> b - a);
+    //PriorityQueue<Integer> maxPQ = new PriorityQueue<>((a,b) -> b.compareTo(a));
     for (int i = 1; i <= n; i++) {
       int a = input.nextInt();
       pq.add(a);
